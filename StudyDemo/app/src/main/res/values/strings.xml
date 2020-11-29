@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Exp2_LinearLayout</string>
+    <string name="edit_message">editmessage</string>
+    <string name="button_send"></string>
+
+    <string name="textView1_one">RED</string>
+    <string name="textView1_one2">ORANGE</string>
+    <string name="textView1_one3">YELLOW</string>
+    <string name="textView2_one">GREEN</string>
+    <string name="textView2_two">BLUE</string>
+    <string name="textView2_three">INDIGO</string>
+    <string name="textView3">VIOLET</string>
+
+
+    <!--the first line-->
+    <string name="btn1_1">One,One</string>
+    <string name="btn1_2">One,Two</string>
+    <string name="btn1_3">One,Three</string>
+    <string name="btn1_4">One,Four</string>
+    <!--the second line-->
+    <string name="btn2_1">Two,One</string>
+    <string name="btn2_2">Two,Two</string>
+    <string name="btn2_3">Two,Three</string>
+    <string name="btn2_4">Two,Four</string>
+
+    <!--the third line-->
+    <string name="btn3_1">Three,One</string>
+    <string name="btn3_2">Three,Two</string>
+    <string name="btn3_3">Three,Three</string>
+    <string name="btn3_4">Three,Four</string>
+
+    <!--the fourth line-->
+    <string name="btn4_1">Four,One</string>
+    <string name="btn4_2">Four,Two</string>
+    <string name="btn4_3">Four,Three</string>
+    <string name="btn4_4">Four,Four</string>
+
+    <string name="btn11">Open...</string>
+    <string name="btn12">Ctrl-O</string>
+    <string name="btn21">Save...</string>
+    <string name="btn22">Ctrl-S</string>
+    <string name="btn31">Save as...</string>
+    <string name="btn32">Ctrl-Shift-S</string>
+    <string name="btn41">X  Import...</string>
+    <string name="btn51">X  Export...</string>
+    <string name="btn61">Ctrl-E</string>
+    <string name="btn71">Quit</string>
+
+
+</resources>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableRow android:layout_height="wrap_content">
+
+        <Button
+            style="?android:borderlessButtonStyle"
+            android:id="@+id/btn11"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="@string/btn11"
+            android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn12"
+        android:text="@string/btn12"
+        android:gravity="right"
+        android:textAllCaps="false"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_marginRight="0dp"
+        style="?android:borderlessButtonStyle"
+        />
+    </TableRow>
+
+
+    <TableRow
+        android:layout_height="wrap_content"
+        >
+        <Button
+            android:id="@+id/btn21"
+            android:text="@string/btn21"
+            android:gravity="left"
+            android:layout_width="0dp"
+            android:textAllCaps="false"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            style="?android:borderlessButtonStyle"
+            />
+
+        <Button
+            android:id="@+id/btn22"
+            android:text="@string/btn22"
+            android:gravity="right"
+            android:textAllCaps="false"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginRight="0dp"
+            style="?android:borderlessButtonStyle"
+
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        >
+    <Button
+        android:id="@+id/btn31"
+        android:text="@string/btn31"
+        android:gravity="left"
+        android:layout_width="0dp"
+        android:textAllCaps="false"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="1"
+        style="?android:borderlessButtonStyle"
+        />
+
+    <Button
+        android:id="@+id/btn32"
+        android:text="@string/btn32"
+        android:gravity="right"
+        android:textAllCaps="false"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_marginRight="0dp"
+        style="?android:borderlessButtonStyle"></Button>
+
+
+</TableRow>
+
+    <TextView
+        android:layout_height="2dp"
+        android:background="#3c3c3c" />
+
+    <TableRow
+        android:layout_height="wrap_content"
+        >
+        <Button
+            android:id="@+id/btn41"
+            android:text="@string/btn41"
+            android:gravity="left"
+            android:layout_width="0dp"
+            android:textAllCaps="false"
+            android:layout_marginLeft="6dp"
+            android:layout_weight="1"
+            style="?android:borderlessButtonStyle"
+            />
+
+        <Button
+
+            android:text=""
+            android:gravity="right"
+            android:textAllCaps="false"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginRight="0dp"
+            style="?android:borderlessButtonStyle"></Button>
+
+
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        >
+        <Button
+            android:id="@+id/btn51"
+            android:text="@string/btn51"
+            android:gravity="left"
+            android:layout_width="0dp"
+            android:textAllCaps="false"
+            android:layout_marginLeft="6dp"
+            android:layout_weight="1"
+            style="?android:borderlessButtonStyle"
+            />
+
+        <Button
+            android:id="@+id/btn61"
+            android:text="@string/btn61"
+            android:gravity="right"
+            android:textAllCaps="false"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginRight="0dp"
+            style="?android:borderlessButtonStyle"></Button>
+
+
+    </TableRow>
+
+    <TextView
+        android:layout_height="2dp"
+        android:background="#3c3c3c" />
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-6dp"
+        >
+        <Button
+            android:id="@+id/btn71"
+            android:text="@string/btn71"
+            android:gravity="left"
+            android:layout_width="0dp"
+            android:textAllCaps="false"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            style="?android:borderlessButtonStyle"
+            />
+
+        <Button
+            android:text=""
+            android:gravity="right"
+            android:textAllCaps="false"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginRight="0dp"
+            style="?android:borderlessButtonStyle"></Button>
+
+
+    </TableRow>
+
+</TableLayout>
