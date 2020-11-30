@@ -18,7 +18,7 @@
 
 button_style.xml文件如下：
 <br/>
-<img width="600" height="400" src="https://i.loli.net/2020/11/02/IFzcmWx32PfBpa9.png" alt="DS7W____3`JLX8ODMRP1FFC.png" style="zoom:50%;" />
+<img width="800" height="400" src="https://i.loli.net/2020/11/02/IFzcmWx32PfBpa9.png" alt="DS7W____3`JLX8ODMRP1FFC.png" style="zoom:50%;" />
 
 
 
@@ -32,7 +32,7 @@ button_style.xml文件如下：
 
 4、编写完linear_layout和string.xml两个xml文件后。回到MainActivity.java文件中，设置项目编译运行打开的布局文件为Linear_Layout文件，而不是原项目默认的activity_main.xml文件（当然如果你是在activity_main.xml中编写的线性布局代码的话，就不用改了）。
 <br/>
-<img src="https://i.loli.net/2020/11/01/91bHnkVOjA3Yg8a.png" width="500" height="400"/>
+<img src="https://i.loli.net/2020/11/01/91bHnkVOjA3Yg8a.png" width="800" height="400"/>
 5、做完上述操作后，编译运行整个项目，打开模拟器，就会看到最终页面效果（如下图）
 <br/>
 <img src="https://i.loli.net/2020/11/02/mHA7o6FdOqWgjpV.png" alt="T_RUX329AOP8N99_PDDITCR.png" width="200" height="400" />
@@ -43,7 +43,7 @@ button_style.xml文件如下：
 
 1、约束布局同样，页面上的组件都要写在<ConstraintLayout></Constraintayout>中，这里的矩形图案用TextView组件实现。
 <br/>
-<img width="500" height="400" src="https://i.loli.net/2020/11/01/El9sqYBLUKhrufA.png" alt="9N_ENWGFB~B0G5W_L`4@1E7.png" style="zoom:80%;" />
+<img width="700" height="400" src="https://i.loli.net/2020/11/01/El9sqYBLUKhrufA.png" alt="9N_ENWGFB~B0G5W_L`4@1E7.png" style="zoom:80%;" />
 
 注：约束布局要求每个组件，都必须为其设置水平、垂直两个方向上的约束。（代码比较长，就不完整粘贴了）
 
@@ -73,13 +73,13 @@ button_style.xml文件如下：
 
 需要说的是，页面上的分割线，用了2dp高，背景颜色为#3c3c3c的TextView组件实现。
 <br/>
-<img width="600" height="400" src="https://i.loli.net/2020/11/01/GI2Skz6HsJ4Vna3.png" alt="_60QJ7Z~X`_Z4XRW5EIYJ_K.png" />
+<img width="800" height="400" src="https://i.loli.net/2020/11/01/GI2Skz6HsJ4Vna3.png" alt="_60QJ7Z~X`_Z4XRW5EIYJ_K.png" />
 
 （代码比较长，就不完整粘贴了）
 
 2、在design中，设计页面如下：
 <br>
-<img width="500" height="400" src="https://i.loli.net/2020/11/01/r8JZiG3QzT19jCl.png" alt="YK7_IPAQ_SS7F_HCL__874Q.png" style="zoom:50%;" />
+<img width="700" height="400" src="https://i.loli.net/2020/11/01/r8JZiG3QzT19jCl.png" alt="YK7_IPAQ_SS7F_HCL__874Q.png" style="zoom:50%;" />
 
 3、在 strings.xml 文件中，声明定义好需要的组件的id和text值,然后在布局文件里直接调用（声明如下图）
 
