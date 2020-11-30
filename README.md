@@ -18,7 +18,7 @@
 
 button_style.xml文件如下：
 <br/>
-<img width="200" height="400" src="https://i.loli.net/2020/11/02/IFzcmWx32PfBpa9.png" alt="DS7W____3`JLX8ODMRP1FFC.png" style="zoom:50%;" />
+<img width="600" height="400" src="https://i.loli.net/2020/11/02/IFzcmWx32PfBpa9.png" alt="DS7W____3`JLX8ODMRP1FFC.png" style="zoom:50%;" />
 
 
 
@@ -32,7 +32,7 @@ button_style.xml文件如下：
 
 4、编写完linear_layout和string.xml两个xml文件后。回到MainActivity.java文件中，设置项目编译运行打开的布局文件为Linear_Layout文件，而不是原项目默认的activity_main.xml文件（当然如果你是在activity_main.xml中编写的线性布局代码的话，就不用改了）。
 <br/>
-<img src="https://i.loli.net/2020/11/01/91bHnkVOjA3Yg8a.png" width="200" height="400"/>
+<img src="https://i.loli.net/2020/11/01/91bHnkVOjA3Yg8a.png" width="500" height="400"/>
 5、做完上述操作后，编译运行整个项目，打开模拟器，就会看到最终页面效果（如下图）
 <br/>
 <img src="https://i.loli.net/2020/11/02/mHA7o6FdOqWgjpV.png" alt="T_RUX329AOP8N99_PDDITCR.png" width="200" height="400" />
@@ -53,7 +53,7 @@ button_style.xml文件如下：
 
 3、布局完基本组件位置后也一样，给组件添加text时，都不能直接在 xml 文件里面写，在 strings.xml 文件中，声明定义好需要的组件的id和text值,然后在布局文件里直接使用（声明如下图）
 <br/>
-<img width="500" height="400" src="https://i.loli.net/2020/11/01/XP38yqdiH2z6mtB.png" alt="L_K0D0_H~F@4_X~MUH_3_1Y.png" style="zoom:50%;" />
+<img width="600" height="400" src="https://i.loli.net/2020/11/01/XP38yqdiH2z6mtB.png" alt="L_K0D0_H~F@4_X~MUH_3_1Y.png" style="zoom:50%;" />
 
 4、在MainActivity.java文件中，设置项目编译运行打开的布局文件为constraint_layout文件，而不是原项目默认的activity_main.xml文件（当然如果你是在activity_main.xml中编写的线性布局代码的话，就不用改了）。
 
@@ -61,19 +61,19 @@ button_style.xml文件如下：
 
 5、做完上述操作后，编译运行整个项目，打开模拟器，就会看到最终页面效果（如下图）
 <br/>
-<img width="200" height="400" src="https://i.loli.net/2020/11/01/LPED7QGriO3zaRy.png" alt="WMPO9XXZ@_2N_Z`SKZ7@__Y.png" style="zoom: 50%;" />
+<img width="200" height="400" src="https://i.loli.net/2020/11/01/LPED7QGriO3zaRy.png" alt="WMPO9XXZ@_2N_Z`SKZ7@__Y.png" />
 
 #### 三、表格布局
 
 1、表格布局也是，页面上的组件都要写在<TableLayout></TableLayout>中，这里用到了按钮组件Button和TextView组件。
 <br/>
-<img width="500" height="400" src="https://i.loli.net/2020/11/01/cYaVjdT1mXoh8fw.png" alt="U_@GJM3A@___@WG0J@LVIEK.png" />
+<img width="600" height="400" src="https://i.loli.net/2020/11/01/cYaVjdT1mXoh8fw.png" alt="U_@GJM3A@___@WG0J@LVIEK.png" />
 
 表格布局需要设定行<TableRow>,行里面的组件个数就是列个数。
 
 需要说的是，页面上的分割线，用了2dp高，背景颜色为#3c3c3c的TextView组件实现。
 <br/>
-<img width="500" height="400" src="https://i.loli.net/2020/11/01/GI2Skz6HsJ4Vna3.png" alt="_60QJ7Z~X`_Z4XRW5EIYJ_K.png" style="zoom:50%;" />
+<img width="600" height="400" src="https://i.loli.net/2020/11/01/GI2Skz6HsJ4Vna3.png" alt="_60QJ7Z~X`_Z4XRW5EIYJ_K.png" />
 
 （代码比较长，就不完整粘贴了）
 
