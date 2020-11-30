@@ -73,7 +73,7 @@ button_style.xml文件如下：
 
 需要说的是，页面上的分割线，用了2dp高，背景颜色为#3c3c3c的TextView组件实现。
 <br/>
-<img width="800" height="400" src="https://i.loli.net/2020/11/01/GI2Skz6HsJ4Vna3.png" alt="_60QJ7Z~X`_Z4XRW5EIYJ_K.png" />
+<img width="400" height="200" src="https://i.loli.net/2020/11/01/GI2Skz6HsJ4Vna3.png" alt="_60QJ7Z~X`_Z4XRW5EIYJ_K.png" />
 
 （代码比较长，就不完整粘贴了）
 
